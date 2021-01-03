@@ -12,7 +12,7 @@ number= random.randint(1,100) # This code creates a variable and then puts a ran
 print("Guess the number")
 guesscount= int(0) # This is implies to how many times you have guesses. It'll be necessary to keep track of the guess limit
 while guesscount < 6: # Until the times you have guesses exceed 6 the codes below will repeat
- yourguess= int(input()) # This code takes the keyboard inout of your answer and then puts into a variable
+ yourguess= int(input()) # This code takes the keyboard input of your answer and then puts into a variable
  guesscount= guesscount + 1 # We add 1 to the times you have guessed
  if yourguess == number: # If you get the number right, this code will activate. If you did not get it right, it'll switch onto the next code
    print("gg")
